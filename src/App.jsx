@@ -13,7 +13,6 @@ import AnexosVideo from './pages/AnexosVideo'
 function App() {
   const location = useLocation()
   
-  // Mapeo de rutas a números de página
   const paginaActual = {
     '/': 1,
     '/indice': 2,
